@@ -54,16 +54,11 @@ Gradient Image: This is used to define the topography of the image, serving as t
 Watershed Lines: These act as segmentation boundaries between regions.
 Merge and Refinement: To avoid extra regions generated during segmentation, post-processing steps are followed to merge small regions that are not areas of interest.
 
- 
-
-
-
 It is the process of obtaining numeric values from given raw data and extracting useful characteristics that are important for image analysis. These features help generate patterns within an image. To obtain a broader range of image data, several feature extraction methods can be used together. The original information from the data set is preserved.
 
 Applications of feature extraction include Edge Detection, Texture Analysis, Segmentation Features, etc.
 
  
-\section{K-Nearest Neighbour}
-
+1.9K-Nearest Neighbour:
 
 K-Nearest Neighbors (KNN) is an algorithm that groups data based on similarity to already existing examples. Grouping is determined by the neighbors of a data point. KNN is dependent on the similarity of features, and it is abbreviated as KNN. Selecting the right value of K is important for accuracy. 
